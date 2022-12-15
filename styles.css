@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
+
+body {
+    /* background-color: rgb(40,40,40); */
+    /* background-image: url("assets/robot_dark.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat; */
+}
+.hero {
+    background-image: url("assets/robot_dark.png");
+    height: 100vh; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+.hero h1 {
+    color: white;
+    font-size: 4rem;
+}
+
+#mainLogo {
+    height: 3rem;
+    margin: .5em;
+}
+.navbar {
+    background-color: rgb(40,40,40);
+    transition: .35s;
+}
+.navbarTransparent {
+    background-color: transparent;
+}
+.navbarTransparent .nav-link {
+    color: rgb(200, 200, 200);
+}
+.navbarTransparent .nav-link:hover {
+    color: rgb(128, 128, 128);
+}
+
+.navbar-brand {
+    margin-right: 2rem;
+}
+.nav-item {
+    padding-right: 2em;
+    text-align: center;
+}
+.nav-link {
+    font-size: 1.4rem;
+    font-family: 'Source Code Pro', monospace;
+    color: rgb(150, 150, 150);
+}
+.navbar-toggler, .navbar-toggler-icon {
+    color: rgb(150, 150, 150);
+}
+.nav-link:hover, .nav-link:active{
+    color: white;
+}
+
+
