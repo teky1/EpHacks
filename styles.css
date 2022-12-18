@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
 
 body {
-    /* background-color: rgb(40,40,40); */
+    background-color: rgb(40,40,40);
     /* background-image: url("assets/robot_dark.png");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat; */
+    
 }
 .hero {
     background-image: url("assets/robot_dark.png");
@@ -17,6 +18,8 @@ body {
 .hero h1 {
     color: white;
     font-size: 4rem;
+    font-family: 'Source Code Pro', monospace;
+    margin-bottom: 3rem;
 }
 
 #mainLogo {
@@ -54,6 +57,71 @@ body {
 }
 .nav-link:hover, .nav-link:active{
     color: white;
+}
+
+.registerBtn, .navbarTransparent .registerBtn {
+    background-color: rgb(200, 0, 0);
+    border: 2px solid rgb(200, 0, 0);
+    border-radius: .5em;
+    color: white;
+
+}
+.registerBtn:hover, .navbarTransparent .registerBtn:hover {
+    color: rgb(230, 230, 230);
+    background-color: rgb(150, 0, 0);
+}
+#heroRegister {
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-family: 'Source Code Pro', monospace;
+    padding: .5em 1em;
+}
+
+
+.section {
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    color: white;
+    padding: 3rem 1rem;
+    scroll-margin-top: 5rem;
+}
+.sectionTitle {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+
+
+#about {
+    background-color: rgb(60,60,60);
+}
+#aboutContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#about p {
+    font-size: 1.3rem;
+    color: rgb(220, 220, 220);
+    width: fit-content;
+    text-align: left;
+    text-indent: 4rem;
+}
+
+
+
+#schedule {
+    background-color: rgb(50, 50, 50);
+}
+#schedule h2 {
+    margin-bottom: 7rem;
+    color: rgb(220, 220, 220);
+}
+
+
+
+#faq {
+    background-color: rgb(45, 45, 45);
+    height: 100vh;
 }
 
 

@@ -10,7 +10,8 @@
     <script src="scripts.js" defer></script>
     
     <link rel="stylesheet" href="styles.css">
-    <title>(insert name)</title>
+    <title>Hackathon Name</title>
+    <link rel="icon" href="assets/e_logo.png">
 </head>
 <body data-bs-spy="scroll" data-bs-target=".navbar">
     
@@ -19,25 +20,25 @@
             <a href="#" class="navbar-brand">
                 <img src="assets/e_logo.png" alt="Epsilon Logo" id="mainLogo">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navLinks">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navLinks" onclick="expandHamburger()">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navLinks">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Info</a>
+                        <a href="#about" class="nav-link">About</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Schedule</a>
+                        <a href="#schedule" class="nav-link">Schedule</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">FAQ</a>
+                        <a href="#faq" class="nav-link">FAQ</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">About Us</a>
+                        <a href="#" class="nav-link">Team</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Register</a>
+                        <a href="#" class="nav-link registerBtn">Register</a>
                     </li>
                 </ul>
             </div>
@@ -45,12 +46,29 @@
     </nav>
 
     <div class="container-fluid hero align-items-center" style="display: flex;">
-        <div class="mx-auto my-auto text-center">
+        <div class="mx-auto my-auto text-center" style="display:inline-block">
             <h1 class="display-1">Hackathon Name</h1>
+            <a href="#" class="registerBtn" id="heroRegister">Register</a>
         </div>
     </div>
 
-    <div style="height:100vh">s</div>
+    <div class="container-fluid section" id="about">
+        <div id="aboutContainer">
+            <h1 class="sectionTitle">About</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in justo vel tellus pellentesque aliquet non vel odio. Aenean venenatis ultricies justo a sodales. Suspendisse laoreet ex urna, ac vehicula ante bibendum eget. Etiam at odio nunc. Nam tincidunt fringilla dapibus. Nam nec efficitur leo. Nam dictum nisl quam, quis molestie lectus iaculis quis.</p>
+            <br>
+            <p>Ut vel magna id justo faucibus feugiat. Suspendisse id sagittis velit, in tristique orci. Pellentesque sit amet elit at tortor hendrerit pretium. Vivamus commodo mattis bibendum. Sed condimentum feugiat tellus, a lacinia mauris malesuada nec. Nunc at eros eu ex molestie rutrum at non libero. Aliquam luctus mi eu eleifend porta. Fusce bibendum quam turpis, sit amet tempor sem tristique quis. Nullam tellus elit, tempor eget sapien tincidunt, tincidunt sodales dolor. Nullam semper, justo eget vehicula vestibulum, eros orci dignissim enim, a ultrices tortor ex quis velit.</p>
+        </div>
+    </div>
+
+    <div class="container-fluid section" id="schedule">
+        <h1 class="sectionTitle">Schedule</h1>
+        <h2>Wednesday, January 4 2023</h2><h2>Competition Schedule To Be Announced...</h2>
+    </div>
+
+    <div class="container-fluid section" id="faq">
+        <h1 class="sectionTitle">FAQ</h1>
+    </div>
 
 </body>
 </html>
