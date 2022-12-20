@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
 
+/* <-+-> General <-+->*/
+
 body {
     background-color: rgb(40,40,40);
     /* background-image: url("assets/robot_dark.png");
@@ -8,6 +10,9 @@ body {
     background-repeat: no-repeat; */
     
 }
+
+/* <-+-> Hero <-+->*/
+
 .hero {
     background-image: url("assets/robot_dark.png");
     height: 100vh; /* You must set a specified height */
@@ -21,6 +26,14 @@ body {
     font-family: 'Source Code Pro', monospace;
     margin-bottom: 3rem;
 }
+#heroRegister {
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-family: 'Source Code Pro', monospace;
+    padding: .5em 1em;
+}
+
+/* <-+-> Navbar <-+->*/
 
 #mainLogo {
     height: 3rem;
@@ -70,13 +83,8 @@ body {
     color: rgb(230, 230, 230);
     background-color: rgb(150, 0, 0);
 }
-#heroRegister {
-    text-decoration: none;
-    font-size: 1.8rem;
-    font-family: 'Source Code Pro', monospace;
-    padding: .5em 1em;
-}
 
+/* <-+-> Section General <-+->*/
 
 .section {
     text-align: center;
@@ -89,15 +97,15 @@ body {
     font-size: 3rem;
     margin-bottom: 3rem;
 }
+.sectionContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
-
+/* <-+-> About <-+->*/
 
 #about {
     background-color: rgb(60,60,60);
-}
-#aboutContainer {
-    max-width: 1200px;
-    margin: 0 auto;
 }
 #about p {
     font-size: 1.3rem;
@@ -107,7 +115,7 @@ body {
     text-indent: 4rem;
 }
 
-
+/* <-+-> Schedule <-+->*/
 
 #schedule {
     background-color: rgb(50, 50, 50);
@@ -117,11 +125,36 @@ body {
     color: rgb(220, 220, 220);
 }
 
-
+/* <-+-> FAQ <-+->*/
 
 #faq {
     background-color: rgb(45, 45, 45);
-    height: 100vh;
+}
+.faqQuestion {
+    text-align: left;
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+.question {
+    font-weight: bold;
+    /* text-decoration: underline; */
+    font-size: 1.6rem;
+    color: rgb(220, 220, 220);
+}
+.answer {
+    margin-top: 1rem;
+    display: block;
+    color: rgb(200, 200, 200);                                                                                       
+}
+
+/* <-+-> Team <-+->*/
+
+#team p {
+    font-size: 1.3rem;
+    color: rgb(220, 220, 220);
+    width: fit-content;
+    text-align: left;
+    text-indent: 4rem;
 }
 
 
