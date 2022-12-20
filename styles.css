@@ -105,7 +105,7 @@ body {
 /* <-+-> About <-+->*/
 
 #about {
-    background-color: rgb(60,60,60);
+    background-color: rgb(65,65,65);
 }
 #about p {
     font-size: 1.3rem;
@@ -118,7 +118,7 @@ body {
 /* <-+-> Schedule <-+->*/
 
 #schedule {
-    background-color: rgb(50, 50, 50);
+    background-color: rgb(55, 55, 55);
 }
 #schedule h2 {
     margin-bottom: 7rem;
@@ -128,7 +128,7 @@ body {
 /* <-+-> FAQ <-+->*/
 
 #faq {
-    background-color: rgb(45, 45, 45);
+    background-color: rgb(50, 50, 50);
 }
 .faqQuestion {
     text-align: left;
@@ -148,7 +148,9 @@ body {
 }
 
 /* <-+-> Team <-+->*/
-
+#team {
+    background-color: rgb(45, 45, 45);
+}
 #team p {
     font-size: 1.3rem;
     color: rgb(220, 220, 220);
