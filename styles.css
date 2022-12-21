@@ -24,9 +24,19 @@ body {
     color: white;
     font-size: 4rem;
     font-family: 'Source Code Pro', monospace;
-    margin-bottom: 3rem;
+    /* margin-bottom: 3rem; */
+}
+.hero h3 {
+    color: rgb(200,200,200);
+    font-size: 2rem;
+    font-family: 'Source Code Pro', monospace;
+    margin-bottom: 2rem;
+}
+.hero #date{
+    margin-bottom: .5rem;;
 }
 #heroRegister {
+    margin-top: 3rem;
     text-decoration: none;
     font-size: 1.8rem;
     font-family: 'Source Code Pro', monospace;
@@ -157,6 +167,20 @@ body {
     width: fit-content;
     text-align: left;
     text-indent: 4rem;
+}
+#team div {
+    max-width: 800px;
+}
+#team img {
+    max-width: 750px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border: .5rem solid rgb(30, 30, 30);
+    margin-bottom: 3rem;
+}
+#team a {
+    color:rgb(80, 161, 253);
 }
 
 
